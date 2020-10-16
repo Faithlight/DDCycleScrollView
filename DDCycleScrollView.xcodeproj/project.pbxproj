@@ -49,8 +49,6 @@
 		485B54741C3A196C001944FA /* pageControlDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@3x.png"; sourceTree = "<group>"; };
 		485B54751C3A196C001944FA /* pageControlCurrentDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@3x.png"; sourceTree = "<group>"; };
 		485B54761C3A196C001944FA /* pageControlCurrentDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@2x.png"; sourceTree = "<group>"; };
-		5FD2008D25393C31003EA356 /* SDCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SDCycleScrollView.app; path = "/Users/zhiliao/Desktop/Sourcetree/SDCycleScrollView/build/Debug-iphoneos/SDCycleScrollView.app"; sourceTree = "<absolute>"; };
-		5FD2008E25393C31003EA356 /* SDCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SDCycleScrollViewTests.xctest; path = "/Users/zhiliao/Desktop/Sourcetree/SDCycleScrollView/build/Debug-iphoneos/SDCycleScrollViewTests.xctest"; sourceTree = "<absolute>"; };
 		5FD2009125393C4A003EA356 /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
 		5FD2009225393C4A003EA356 /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
 		5FD2009325393C4A003EA356 /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
@@ -58,6 +56,8 @@
 		5FD2009525393C4A003EA356 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
 		5FD200A125393E6D003EA356 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
 		5FD200A225393E6D003EA356 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
+		5FD200A825394466003EA356 /* DDCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DDCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FD200A925394466003EA356 /* DDCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DDCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BAA27FB1EFEA798008693AB /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
 		6BAA27FC1EFEA798008693AB /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
 		9900D1721ABEB2490077A6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -102,6 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				9900D1701ABEB2490077A6CB /* SDCycleScrollView */,
+				5FD200A825394466003EA356 /* DDCycleScrollView.app */,
+				5FD200A925394466003EA356 /* DDCycleScrollViewTests.xctest */,
 			);
 			sourceTree = "<group>";
 		};
@@ -163,9 +165,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		9900D16D1ABEB2490077A6CB /* SDCycleScrollView */ = {
+		9900D16D1ABEB2490077A6CB /* DDCycleScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9900D1911ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollView" */;
+			buildConfigurationList = 9900D1911ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "DDCycleScrollView" */;
 			buildPhases = (
 				9900D16A1ABEB2490077A6CB /* Sources */,
 				9900D16B1ABEB2490077A6CB /* Frameworks */,
@@ -175,14 +177,14 @@
 			);
 			dependencies = (
 			);
-			name = SDCycleScrollView;
+			name = DDCycleScrollView;
 			productName = SDCycleScrollView;
-			productReference = 5FD2008D25393C31003EA356 /* SDCycleScrollView.app */;
+			productReference = 5FD200A825394466003EA356 /* DDCycleScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		9900D1861ABEB2490077A6CB /* SDCycleScrollViewTests */ = {
+		9900D1861ABEB2490077A6CB /* DDCycleScrollViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 9900D1941ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollViewTests" */;
+			buildConfigurationList = 9900D1941ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "DDCycleScrollViewTests" */;
 			buildPhases = (
 				9900D1831ABEB2490077A6CB /* Sources */,
 				9900D1841ABEB2490077A6CB /* Frameworks */,
@@ -193,9 +195,9 @@
 			dependencies = (
 				9900D1891ABEB2490077A6CB /* PBXTargetDependency */,
 			);
-			name = SDCycleScrollViewTests;
+			name = DDCycleScrollViewTests;
 			productName = SDCycleScrollViewTests;
-			productReference = 5FD2008E25393C31003EA356 /* SDCycleScrollViewTests.xctest */;
+			productReference = 5FD200A925394466003EA356 /* DDCycleScrollViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -217,7 +219,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 9900D1691ABEB2490077A6CB /* Build configuration list for PBXProject "SDCycleScrollView" */;
+			buildConfigurationList = 9900D1691ABEB2490077A6CB /* Build configuration list for PBXProject "DDCycleScrollView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -231,8 +233,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				9900D16D1ABEB2490077A6CB /* SDCycleScrollView */,
-				9900D1861ABEB2490077A6CB /* SDCycleScrollViewTests */,
+				9900D16D1ABEB2490077A6CB /* DDCycleScrollView */,
+				9900D1861ABEB2490077A6CB /* DDCycleScrollViewTests */,
 			);
 		};
 /* End PBXProject section */
@@ -298,7 +300,7 @@
 /* Begin PBXTargetDependency section */
 		9900D1891ABEB2490077A6CB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 9900D16D1ABEB2490077A6CB /* SDCycleScrollView */;
+			target = 9900D16D1ABEB2490077A6CB /* DDCycleScrollView */;
 			targetProxy = 9900D1881ABEB2490077A6CB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -440,7 +442,7 @@
 				INFOPLIST_FILE = SDCycleScrollViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDCycleScrollView.app/SDCycleScrollView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDCycleScrollView.app/DDCycleScrollView";
 			};
 			name = Debug;
 		};
@@ -455,14 +457,14 @@
 				INFOPLIST_FILE = SDCycleScrollViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SDCycleScrollView.app/SDCycleScrollView";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DDCycleScrollView.app/DDCycleScrollView";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		9900D1691ABEB2490077A6CB /* Build configuration list for PBXProject "SDCycleScrollView" */ = {
+		9900D1691ABEB2490077A6CB /* Build configuration list for PBXProject "DDCycleScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9900D18F1ABEB2490077A6CB /* Debug */,
@@ -471,7 +473,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9900D1911ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollView" */ = {
+		9900D1911ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "DDCycleScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9900D1921ABEB2490077A6CB /* Debug */,
@@ -480,7 +482,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		9900D1941ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollViewTests" */ = {
+		9900D1941ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "DDCycleScrollViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				9900D1951ABEB2490077A6CB /* Debug */,

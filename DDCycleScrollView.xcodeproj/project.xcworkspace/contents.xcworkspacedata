@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:SDCycleScrollView.xcodeproj">
+      location = "self:/Users/zhiliao/Desktop/Sourcetree/SDCycleScrollView/DDCycleScrollView.xcodeproj">
    </FileRef>
 </Workspace>

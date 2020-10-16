@@ -17,7 +17,7 @@ s.platform     = :ios, "9.0"
 s.source       = { :git => "https://github.com/Faithlight/DDCycleScrollView", :tag => "#{s.version}"}
 
 
-s.source_files  = "SDCycleScrollView/SDCycleScrollView/**/*.{h,m}"
+s.source_files  = "DDCycleScrollView/DDCycleScrollView/**/*.{h,m}"
 
 
 s.requires_arc = true
