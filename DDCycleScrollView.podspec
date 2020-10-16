@@ -4,7 +4,7 @@ s.name         = "DDCycleScrollView"
 s.version      = "2.00"
 s.summary      = "简单易用的图片无限轮播器."
 
-s.homepage     = "https://github.com/Faithlight/DDCycleScrollView"
+s.homepage     = "https://github.com/Faithlight/DDCycleScrollView.git"
 
 s.license      = "MIT"
 
@@ -14,7 +14,7 @@ s.platform     = :ios
 s.platform     = :ios, "9.0"
 
 
-s.source       = { :git => "https://github.com/Faithlight/DDCycleScrollView", :tag => "#{s.version}"}
+s.source       = { :git => "https://github.com/Faithlight/DDCycleScrollView.git", :tag => "#{s.version}"}
 
 
 s.source_files  = "DDCycleScrollView/DDCycleScrollView/**/*.{h,m}"
