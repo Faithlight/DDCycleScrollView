@@ -103,6 +103,7 @@ NSString * const ID = @"SDCycleScrollViewCell";
     
 }
 
+
 // 设置显示图片的collectionView
 - (void)setupMainView
 {
@@ -137,20 +138,6 @@ NSString * const ID = @"SDCycleScrollViewCell";
     }else if ([self.delegate respondsToSelector:@selector(customCollectionViewCellNibForCycleScrollView:)] && [self.delegate customCollectionViewCellNibForCycleScrollView:self]) {
         [self.mainView registerNib:[self.delegate customCollectionViewCellNibForCycleScrollView:self] forCellWithReuseIdentifier:ID];
     }
-}
-
-- (void)setPlaceholderImage:(UIImage *)placeholderImage
-{
-    _placeholderImage = placeholderImage;
-    
-    if (!self.backgroundImageView) {
-        UIImageView *bgImageView = [UIImageView new];
-        bgImageView.contentMode = UIViewContentModeScaleAspectFit;
-        [self insertSubview:bgImageView belowSubview:self.mainView];
-        self.backgroundImageView = bgImageView;
-    }
-    
-    self.backgroundImageView.image = placeholderImage;
 }
 
 - (void)setPageControlDotSize:(CGSize)pageControlDotSize

@@ -126,9 +126,6 @@ typedef enum {
 /** 轮播图片的ContentMode，默认为 UIViewContentModeScaleToFill */
 @property (nonatomic, assign) UIViewContentMode bannerImageViewContentMode;
 
-/** 占位图，用于网络未加载到图片时 */
-@property (nonatomic, strong) UIImage *placeholderImage;
-
 /** 是否显示分页控件 */
 @property (nonatomic, assign) BOOL showPageControl;
 
