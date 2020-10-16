@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "DDCycleScrollView"
-s.version      = "2.00"
+s.version      = "2.0.0"
 s.summary      = "简单易用的图片无限轮播器."
 
 s.homepage     = "https://github.com/Faithlight/DDCycleScrollView.git"
