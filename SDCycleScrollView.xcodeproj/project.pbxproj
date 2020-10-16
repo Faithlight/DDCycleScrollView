@@ -7,33 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		48377B901C1027F5007B8C21 /* DemoVCWithXib.m in Sources */ = {isa = PBXBuildFile; fileRef = 48377B8E1C1027F5007B8C21 /* DemoVCWithXib.m */; };
-		48377B911C1027F5007B8C21 /* DemoVCWithXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 48377B8F1C1027F5007B8C21 /* DemoVCWithXib.xib */; };
 		4855B1941B09CBA500AA0788 /* placeholder@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4855B1931B09CBA500AA0788 /* placeholder@2x.png */; };
 		485B54771C3A196C001944FA /* pageControlDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 485B54731C3A196C001944FA /* pageControlDot@2x.png */; };
 		485B54781C3A196C001944FA /* pageControlDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 485B54741C3A196C001944FA /* pageControlDot@3x.png */; };
 		485B54791C3A196C001944FA /* pageControlCurrentDot@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 485B54751C3A196C001944FA /* pageControlCurrentDot@3x.png */; };
 		485B547A1C3A196C001944FA /* pageControlCurrentDot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 485B54761C3A196C001944FA /* pageControlCurrentDot@2x.png */; };
+		5FD2009625393C4A003EA356 /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FD2009125393C4A003EA356 /* h2.jpg */; };
+		5FD2009725393C4A003EA356 /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FD2009225393C4A003EA356 /* h4.jpg */; };
+		5FD2009825393C4A003EA356 /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FD2009325393C4A003EA356 /* h3.jpg */; };
+		5FD2009925393C4A003EA356 /* h5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FD2009425393C4A003EA356 /* h5.jpg */; };
+		5FD2009A25393C4A003EA356 /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 5FD2009525393C4A003EA356 /* h1.jpg */; };
+		5FD200A325393E6D003EA356 /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FD200A225393E6D003EA356 /* TAPageControl.m */; };
 		6BAA27FD1EFEA798008693AB /* CustomCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BAA27FC1EFEA798008693AB /* CustomCollectionViewCell.m */; };
 		9900D1741ABEB2490077A6CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900D1731ABEB2490077A6CB /* main.m */; };
 		9900D1771ABEB2490077A6CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900D1761ABEB2490077A6CB /* AppDelegate.m */; };
 		9900D17A1ABEB2490077A6CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900D1791ABEB2490077A6CB /* ViewController.m */; };
 		9900D17F1ABEB2490077A6CB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9900D17E1ABEB2490077A6CB /* Images.xcassets */; };
 		9900D1821ABEB2490077A6CB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9900D1801ABEB2490077A6CB /* LaunchScreen.xib */; };
-		9900D18E1ABEB2490077A6CB /* SDCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9900D18D1ABEB2490077A6CB /* SDCycleScrollViewTests.m */; };
 		9900D1A01ABEB41B0077A6CB /* h2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9900D19C1ABEB41B0077A6CB /* h2.jpg */; };
 		9900D1A21ABEB41B0077A6CB /* h4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 9900D19E1ABEB41B0077A6CB /* h4.jpg */; };
-		990141011AC941FD00D0D74F /* TAAbstractDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990140FA1AC941FD00D0D74F /* TAAbstractDotView.m */; };
-		990141021AC941FD00D0D74F /* TAAnimatedDotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990140FC1AC941FD00D0D74F /* TAAnimatedDotView.m */; };
-		990141031AC941FD00D0D74F /* TADotView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990140FE1AC941FD00D0D74F /* TADotView.m */; };
-		990141041AC941FD00D0D74F /* TAPageControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 990141001AC941FD00D0D74F /* TAPageControl.m */; };
 		9901410B1AC9420E00D0D74F /* SDCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 990141061AC9420E00D0D74F /* SDCollectionViewCell.m */; };
 		9901410C1AC9420E00D0D74F /* SDCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 990141081AC9420E00D0D74F /* SDCycleScrollView.m */; };
 		9901410D1AC9420E00D0D74F /* UIView+SDExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9901410A1AC9420E00D0D74F /* UIView+SDExtension.m */; };
 		999C10981AC14F3B00C11CDB /* h3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 999C10961AC14F3B00C11CDB /* h3.jpg */; };
 		999C109A1AC14F7200C11CDB /* h1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 999C10991AC14F7200C11CDB /* h1.jpg */; };
-		99A732631B24AB660033E878 /* 005.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 99A732621B24AB660033E878 /* 005.jpg */; };
-		9BEB00FE3EB709E4FB44BABF /* libPods-SDCycleScrollView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,19 +44,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		48377B8D1C1027F5007B8C21 /* DemoVCWithXib.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DemoVCWithXib.h; sourceTree = "<group>"; };
-		48377B8E1C1027F5007B8C21 /* DemoVCWithXib.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DemoVCWithXib.m; sourceTree = "<group>"; };
-		48377B8F1C1027F5007B8C21 /* DemoVCWithXib.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DemoVCWithXib.xib; sourceTree = "<group>"; };
 		4855B1931B09CBA500AA0788 /* placeholder@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "placeholder@2x.png"; sourceTree = "<group>"; };
 		485B54731C3A196C001944FA /* pageControlDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@2x.png"; sourceTree = "<group>"; };
 		485B54741C3A196C001944FA /* pageControlDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlDot@3x.png"; sourceTree = "<group>"; };
 		485B54751C3A196C001944FA /* pageControlCurrentDot@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@3x.png"; sourceTree = "<group>"; };
 		485B54761C3A196C001944FA /* pageControlCurrentDot@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pageControlCurrentDot@2x.png"; sourceTree = "<group>"; };
-		5901AA37D1ED166BA94A95E0 /* Pods-SDCycleScrollView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView.release.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView.release.xcconfig"; sourceTree = "<group>"; };
-		5F55240E74603C429F5220D2 /* Pods-SDCycleScrollView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDCycleScrollView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SDCycleScrollView/Pods-SDCycleScrollView.debug.xcconfig"; sourceTree = "<group>"; };
+		5FD2008D25393C31003EA356 /* SDCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = SDCycleScrollView.app; path = "/Users/zhiliao/Desktop/Sourcetree/SDCycleScrollView/build/Debug-iphoneos/SDCycleScrollView.app"; sourceTree = "<absolute>"; };
+		5FD2008E25393C31003EA356 /* SDCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = SDCycleScrollViewTests.xctest; path = "/Users/zhiliao/Desktop/Sourcetree/SDCycleScrollView/build/Debug-iphoneos/SDCycleScrollViewTests.xctest"; sourceTree = "<absolute>"; };
+		5FD2009125393C4A003EA356 /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
+		5FD2009225393C4A003EA356 /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
+		5FD2009325393C4A003EA356 /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
+		5FD2009425393C4A003EA356 /* h5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h5.jpg; sourceTree = "<group>"; };
+		5FD2009525393C4A003EA356 /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
+		5FD200A125393E6D003EA356 /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
+		5FD200A225393E6D003EA356 /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
 		6BAA27FB1EFEA798008693AB /* CustomCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCollectionViewCell.h; sourceTree = "<group>"; };
 		6BAA27FC1EFEA798008693AB /* CustomCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCollectionViewCell.m; sourceTree = "<group>"; };
-		9900D16E1ABEB2490077A6CB /* SDCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SDCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9900D1721ABEB2490077A6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9900D1731ABEB2490077A6CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9900D1751ABEB2490077A6CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -68,19 +68,8 @@
 		9900D1791ABEB2490077A6CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		9900D17E1ABEB2490077A6CB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9900D1811ABEB2490077A6CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		9900D1871ABEB2490077A6CB /* SDCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		9900D18C1ABEB2490077A6CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9900D18D1ABEB2490077A6CB /* SDCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SDCycleScrollViewTests.m; sourceTree = "<group>"; };
 		9900D19C1ABEB41B0077A6CB /* h2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h2.jpg; sourceTree = "<group>"; };
 		9900D19E1ABEB41B0077A6CB /* h4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h4.jpg; sourceTree = "<group>"; };
-		990140F91AC941FD00D0D74F /* TAAbstractDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAbstractDotView.h; sourceTree = "<group>"; };
-		990140FA1AC941FD00D0D74F /* TAAbstractDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAbstractDotView.m; sourceTree = "<group>"; };
-		990140FB1AC941FD00D0D74F /* TAAnimatedDotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAAnimatedDotView.h; sourceTree = "<group>"; };
-		990140FC1AC941FD00D0D74F /* TAAnimatedDotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAAnimatedDotView.m; sourceTree = "<group>"; };
-		990140FD1AC941FD00D0D74F /* TADotView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TADotView.h; sourceTree = "<group>"; };
-		990140FE1AC941FD00D0D74F /* TADotView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TADotView.m; sourceTree = "<group>"; };
-		990140FF1AC941FD00D0D74F /* TAPageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TAPageControl.h; sourceTree = "<group>"; };
-		990141001AC941FD00D0D74F /* TAPageControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TAPageControl.m; sourceTree = "<group>"; };
 		990141051AC9420E00D0D74F /* SDCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCollectionViewCell.h; sourceTree = "<group>"; };
 		990141061AC9420E00D0D74F /* SDCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDCollectionViewCell.m; sourceTree = "<group>"; };
 		990141071AC9420E00D0D74F /* SDCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDCycleScrollView.h; sourceTree = "<group>"; };
@@ -89,8 +78,6 @@
 		9901410A1AC9420E00D0D74F /* UIView+SDExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+SDExtension.m"; sourceTree = "<group>"; };
 		999C10961AC14F3B00C11CDB /* h3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h3.jpg; sourceTree = "<group>"; };
 		999C10991AC14F7200C11CDB /* h1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = h1.jpg; sourceTree = "<group>"; };
-		99A732621B24AB660033E878 /* 005.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 005.jpg; sourceTree = "<group>"; };
-		EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SDCycleScrollView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +85,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BEB00FE3EB709E4FB44BABF /* libPods-SDCycleScrollView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,75 +98,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		48377B8A1C10265E007B8C21 /* DemoVC */ = {
-			isa = PBXGroup;
-			children = (
-				48377B8B1C102758007B8C21 /* 纯代码demo */,
-				48377B8C1C102758007B8C21 /* xib的demo */,
-			);
-			path = DemoVC;
-			sourceTree = "<group>";
-		};
-		48377B8B1C102758007B8C21 /* 纯代码demo */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "纯代码demo";
-			sourceTree = "<group>";
-		};
-		48377B8C1C102758007B8C21 /* xib的demo */ = {
-			isa = PBXGroup;
-			children = (
-				48377B8D1C1027F5007B8C21 /* DemoVCWithXib.h */,
-				48377B8E1C1027F5007B8C21 /* DemoVCWithXib.m */,
-				48377B8F1C1027F5007B8C21 /* DemoVCWithXib.xib */,
-			);
-			path = "xib的demo";
-			sourceTree = "<group>";
-		};
-		570A4158ABBA037265E03A8B /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5F55240E74603C429F5220D2 /* Pods-SDCycleScrollView.debug.xcconfig */,
-				5901AA37D1ED166BA94A95E0 /* Pods-SDCycleScrollView.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
 		9900D1651ABEB2490077A6CB = {
 			isa = PBXGroup;
 			children = (
 				9900D1701ABEB2490077A6CB /* SDCycleScrollView */,
-				9900D18A1ABEB2490077A6CB /* SDCycleScrollViewTests */,
-				9900D16F1ABEB2490077A6CB /* Products */,
-				570A4158ABBA037265E03A8B /* Pods */,
-				AB85341EE3F3D30597B024D0 /* Frameworks */,
 			);
-			sourceTree = "<group>";
-		};
-		9900D16F1ABEB2490077A6CB /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9900D16E1ABEB2490077A6CB /* SDCycleScrollView.app */,
-				9900D1871ABEB2490077A6CB /* SDCycleScrollViewTests.xctest */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9900D1701ABEB2490077A6CB /* SDCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				48377B8A1C10265E007B8C21 /* DemoVC */,
-				9900D1971ABEB2C70077A6CB /* Lib */,
+				99E7B30A1AC11F1C009F9A2E /* SDCycleScrollView */,
 				9900D1751ABEB2490077A6CB /* AppDelegate.h */,
 				9900D1761ABEB2490077A6CB /* AppDelegate.m */,
 				9900D1781ABEB2490077A6CB /* ViewController.h */,
 				9900D1791ABEB2490077A6CB /* ViewController.m */,
+				6BAA27FB1EFEA798008693AB /* CustomCollectionViewCell.h */,
+				6BAA27FC1EFEA798008693AB /* CustomCollectionViewCell.m */,
+				5FD2009525393C4A003EA356 /* h1.jpg */,
+				5FD2009125393C4A003EA356 /* h2.jpg */,
+				5FD2009325393C4A003EA356 /* h3.jpg */,
+				5FD2009225393C4A003EA356 /* h4.jpg */,
+				5FD2009425393C4A003EA356 /* h5.jpg */,
 				9900D17E1ABEB2490077A6CB /* Images.xcassets */,
 				9900D1801ABEB2490077A6CB /* LaunchScreen.xib */,
 				9900D1711ABEB2490077A6CB /* Supporting Files */,
-				6BAA27FB1EFEA798008693AB /* CustomCollectionViewCell.h */,
-				6BAA27FC1EFEA798008693AB /* CustomCollectionViewCell.m */,
 			);
 			path = SDCycleScrollView;
 			sourceTree = "<group>";
@@ -192,7 +134,6 @@
 				485B54741C3A196C001944FA /* pageControlDot@3x.png */,
 				485B54751C3A196C001944FA /* pageControlCurrentDot@3x.png */,
 				485B54761C3A196C001944FA /* pageControlCurrentDot@2x.png */,
-				99A732621B24AB660033E878 /* 005.jpg */,
 				4855B1931B09CBA500AA0788 /* placeholder@2x.png */,
 				999C10991AC14F7200C11CDB /* h1.jpg */,
 				999C10961AC14F3B00C11CDB /* h3.jpg */,
@@ -204,31 +145,6 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9900D18A1ABEB2490077A6CB /* SDCycleScrollViewTests */ = {
-			isa = PBXGroup;
-			children = (
-				9900D18D1ABEB2490077A6CB /* SDCycleScrollViewTests.m */,
-				9900D18B1ABEB2490077A6CB /* Supporting Files */,
-			);
-			path = SDCycleScrollViewTests;
-			sourceTree = "<group>";
-		};
-		9900D18B1ABEB2490077A6CB /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				9900D18C1ABEB2490077A6CB /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		9900D1971ABEB2C70077A6CB /* Lib */ = {
-			isa = PBXGroup;
-			children = (
-				99E7B30A1AC11F1C009F9A2E /* SDCycleScrollView */,
-			);
-			path = Lib;
-			sourceTree = "<group>";
-		};
 		99E7B30A1AC11F1C009F9A2E /* SDCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
@@ -238,32 +154,10 @@
 				990141081AC9420E00D0D74F /* SDCycleScrollView.m */,
 				990141091AC9420E00D0D74F /* UIView+SDExtension.h */,
 				9901410A1AC9420E00D0D74F /* UIView+SDExtension.m */,
-				99E7B30B1AC11F1C009F9A2E /* PageControl */,
+				5FD200A125393E6D003EA356 /* TAPageControl.h */,
+				5FD200A225393E6D003EA356 /* TAPageControl.m */,
 			);
 			path = SDCycleScrollView;
-			sourceTree = "<group>";
-		};
-		99E7B30B1AC11F1C009F9A2E /* PageControl */ = {
-			isa = PBXGroup;
-			children = (
-				990140F91AC941FD00D0D74F /* TAAbstractDotView.h */,
-				990140FA1AC941FD00D0D74F /* TAAbstractDotView.m */,
-				990140FB1AC941FD00D0D74F /* TAAnimatedDotView.h */,
-				990140FC1AC941FD00D0D74F /* TAAnimatedDotView.m */,
-				990140FD1AC941FD00D0D74F /* TADotView.h */,
-				990140FE1AC941FD00D0D74F /* TADotView.m */,
-				990140FF1AC941FD00D0D74F /* TAPageControl.h */,
-				990141001AC941FD00D0D74F /* TAPageControl.m */,
-			);
-			path = PageControl;
-			sourceTree = "<group>";
-		};
-		AB85341EE3F3D30597B024D0 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				EE55CBF170FE2BFA0498D7B2 /* libPods-SDCycleScrollView.a */,
-			);
-			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,7 +167,6 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9900D1911ABEB2490077A6CB /* Build configuration list for PBXNativeTarget "SDCycleScrollView" */;
 			buildPhases = (
-				4D98B14AD917D2D90CD5618A /* [CP] Check Pods Manifest.lock */,
 				9900D16A1ABEB2490077A6CB /* Sources */,
 				9900D16B1ABEB2490077A6CB /* Frameworks */,
 				9900D16C1ABEB2490077A6CB /* Resources */,
@@ -284,7 +177,7 @@
 			);
 			name = SDCycleScrollView;
 			productName = SDCycleScrollView;
-			productReference = 9900D16E1ABEB2490077A6CB /* SDCycleScrollView.app */;
+			productReference = 5FD2008D25393C31003EA356 /* SDCycleScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
 		9900D1861ABEB2490077A6CB /* SDCycleScrollViewTests */ = {
@@ -302,7 +195,7 @@
 			);
 			name = SDCycleScrollViewTests;
 			productName = SDCycleScrollViewTests;
-			productReference = 9900D1871ABEB2490077A6CB /* SDCycleScrollViewTests.xctest */;
+			productReference = 5FD2008E25393C31003EA356 /* SDCycleScrollViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -329,11 +222,12 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
 			mainGroup = 9900D1651ABEB2490077A6CB;
-			productRefGroup = 9900D16F1ABEB2490077A6CB /* Products */;
+			productRefGroup = 9900D1651ABEB2490077A6CB;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -348,18 +242,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FD2009825393C4A003EA356 /* h3.jpg in Resources */,
+				5FD2009925393C4A003EA356 /* h5.jpg in Resources */,
 				9900D1A21ABEB41B0077A6CB /* h4.jpg in Resources */,
 				999C109A1AC14F7200C11CDB /* h1.jpg in Resources */,
 				999C10981AC14F3B00C11CDB /* h3.jpg in Resources */,
+				5FD2009625393C4A003EA356 /* h2.jpg in Resources */,
 				485B54771C3A196C001944FA /* pageControlDot@2x.png in Resources */,
-				99A732631B24AB660033E878 /* 005.jpg in Resources */,
 				9900D1821ABEB2490077A6CB /* LaunchScreen.xib in Resources */,
 				485B54781C3A196C001944FA /* pageControlDot@3x.png in Resources */,
 				4855B1941B09CBA500AA0788 /* placeholder@2x.png in Resources */,
 				485B547A1C3A196C001944FA /* pageControlCurrentDot@2x.png in Resources */,
-				48377B911C1027F5007B8C21 /* DemoVCWithXib.xib in Resources */,
+				5FD2009725393C4A003EA356 /* h4.jpg in Resources */,
 				9900D17F1ABEB2490077A6CB /* Images.xcassets in Resources */,
 				485B54791C3A196C001944FA /* pageControlCurrentDot@3x.png in Resources */,
+				5FD2009A25393C4A003EA356 /* h1.jpg in Resources */,
 				9900D1A01ABEB41B0077A6CB /* h2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -373,42 +270,17 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		4D98B14AD917D2D90CD5618A /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SDCycleScrollView-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
 		9900D16A1ABEB2490077A6CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				9900D17A1ABEB2490077A6CB /* ViewController.m in Sources */,
-				990141031AC941FD00D0D74F /* TADotView.m in Sources */,
-				990141011AC941FD00D0D74F /* TAAbstractDotView.m in Sources */,
 				6BAA27FD1EFEA798008693AB /* CustomCollectionViewCell.m in Sources */,
-				990141021AC941FD00D0D74F /* TAAnimatedDotView.m in Sources */,
 				9901410D1AC9420E00D0D74F /* UIView+SDExtension.m in Sources */,
 				9900D1771ABEB2490077A6CB /* AppDelegate.m in Sources */,
-				990141041AC941FD00D0D74F /* TAPageControl.m in Sources */,
-				48377B901C1027F5007B8C21 /* DemoVCWithXib.m in Sources */,
 				9900D1741ABEB2490077A6CB /* main.m in Sources */,
+				5FD200A325393E6D003EA356 /* TAPageControl.m in Sources */,
 				9901410B1AC9420E00D0D74F /* SDCollectionViewCell.m in Sources */,
 				9901410C1AC9420E00D0D74F /* SDCycleScrollView.m in Sources */,
 			);
@@ -418,7 +290,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9900D18E1ABEB2490077A6CB /* SDCycleScrollViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -522,7 +393,6 @@
 		};
 		9900D1921ABEB2490077A6CB /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5F55240E74603C429F5220D2 /* Pods-SDCycleScrollView.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -540,7 +410,6 @@
 		};
 		9900D1931ABEB2490077A6CB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5901AA37D1ED166BA94A95E0 /* Pods-SDCycleScrollView.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
