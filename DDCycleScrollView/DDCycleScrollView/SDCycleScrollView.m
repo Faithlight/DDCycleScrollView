@@ -65,7 +65,7 @@ NSString * const ID = @"SDCycleScrollViewCell";
 }
 - (instancetype)initWithFrame:(CGRect)frame delegate:(id<SDCycleScrollViewDelegate>)delegate
 {
-    SDCycleScrollView *cycleScrollView = [[SDCycleScrollView alloc] initWithFrame:frame];
+    SDCycleScrollView *cycleScrollView = [[self.class alloc] initWithFrame:frame];
     cycleScrollView.delegate = delegate;
     cycleScrollView.autoScrollTimeInterval = 3;
     return cycleScrollView;

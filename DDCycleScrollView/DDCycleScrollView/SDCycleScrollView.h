@@ -55,22 +55,14 @@ typedef enum {
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView prepareImageView:(UIImageView *)imageView forItemAtIndex:(NSInteger)index;
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView prepareLabel:(UILabel *)label forItemAtIndex:(NSInteger)index;
 
-
-
-
-
-
-
-
 /** 点击图片回调 */
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didSelectItemAtIndex:(NSInteger)index;
 
 /** 图片滚动回调 */
 - (void)cycleScrollView:(SDCycleScrollView *)cycleScrollView didScrollToIndex:(NSInteger)index;
 
-// 不需要自定义轮播cell的请忽略以下两个的代理方法
 
-// ========== 轮播自定义cell ==========
+// ========== 轮播自定义cell ==========   不需要自定义轮播cell的请忽略以下代理方法
 
 /** 如果你需要自定义cell样式，请在实现此代理方法返回你的自定义cell的class。 */
 - (Class)customCollectionViewCellClassForCycleScrollView:(SDCycleScrollView *)view;
